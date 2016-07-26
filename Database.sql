@@ -30,7 +30,7 @@ CREATE TABLE `pokemon` (
   `id` int(11) NOT NULL,
   `pokedex` varchar(5) NOT NULL,
   `name` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -47,7 +47,7 @@ CREATE TABLE `sighting` (
   `name` varchar(100) NOT NULL,
   `updatedAt` int(11) NOT NULL,
   `createdAt` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Indexen voor geëxporteerde tabellen
